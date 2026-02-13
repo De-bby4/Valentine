@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+
+*{
+    font-family: 'Gorditas', sans-serif;
+}
+.container1{
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.gif-container {
+  display: flex;
+  /* background-color: aqua; */
+  margin-bottom: 400px;
+  width: 320px;
+  height: 320px;
+}   
+
+.ans{
+   position: relative;
+   top: -390px;
+   align-items: center;
+}
+
+.btn-div{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.h3{
+    font-size: 1.5rem;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn2{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
